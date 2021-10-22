@@ -2,11 +2,18 @@ import Mark from './Mark.png';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import Projects from './projects.json'
+import Experience from './experience.json'
 import { Grid, Form, FormControl, Navbar, Glyphicon,
   Nav, NavItem, Well, Row, Col, Button, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
 
 var Rainbow = require('rainbowvis.js');
 var myRainbow = new Rainbow();
@@ -41,6 +48,7 @@ function App(props) {
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -56,15 +64,16 @@ function App(props) {
           <Container fluid>
             <Row>
               <Col>
-                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                <a style={{color: "white"}} href="https://www.linkedin.com/in/mark-branton-54b509175/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
               </Col>
               <Col>
-                <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
+                <a style={{color: "white"}} href="https://github.com/MarkBranton1999"><FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon></a>
               </Col>
               <Col>
-                <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                <a style={{color: "white"}} href="mailto: markbranton99@gmail.com"><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></a>
               </Col>
               <Col>
+                <FontAwesomeIcon icon={faFileDownload}></FontAwesomeIcon>
               </Col>
             </Row>
           </Container>
@@ -80,6 +89,39 @@ function App(props) {
             I am mainly looking for web development jobs.
             Please do not hesitate to reach out to me with job opportunities.
           </div>
+        </div>
+        <br></br>
+        <div id="experience">
+          <br></br>
+          <h1>
+            Experience
+          </h1>
+          <br></br>
+          <Timeline position="alternate">
+            {Experience.map((Work) => {
+              return (<TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot />
+                <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <h3>{Work.Title}</h3>
+                  <br></br>
+                  <h4>{Work.Company}</h4>
+                  <br></br>
+                  <h5>{Work.Date}</h5>
+                  <br></br>
+                  <ul>
+                    {Work.Description.map((Point) => {
+                      return (<li>{Point}</li>);
+                    })}
+                  </ul>
+                  <br></br>
+                  Technologies Used: {Work.Tech}
+                </TimelineContent>
+              </TimelineItem>);
+            })}
+          </Timeline>
         </div>
         <br></br>
         <div id="projects">

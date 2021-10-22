@@ -1,0 +1,14 @@
+[{
+    "Title": "Full Stack JavaScript Developer",
+    "Company": "Intrigue Media",
+    "Description": ["Developed many new features and fixed bugs in proprietary software. Worked extensively with form fields, back-end schema, save and update hooks, and developed new APIs.","Held a de-facto IT/Software support role with respect to the company’s non-technical teams. Worked extensively with users to identify issues and come up with new features to improve the software."],
+    "Tech": "Javascript, JQuery, PHP, React, ExpressJS, Mongoose",
+    "Date": "Jan 2020 - April 2020"
+},
+{
+    "Title": "Backend Developer",
+    "Company": "PepperData",
+    "Description": ["Added extensive machine learning and GPU metrics gathering capabilities to a Kubernetes system", "Lead a research project involving machine learning and hardware monitoring in Kubernetes from start to finish. Took initiative regarding what to research.", "Wrote extensive documentation (over 50 pages) and gave several design presentations."],
+    "Tech": "Kubernetes, PyTorch, TensorFlow, Bash, YAML",
+    "Date": "Sept 2020 - Dec 2020"
+}]
