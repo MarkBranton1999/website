@@ -1,4 +1,5 @@
 import Mark from './Mark.png';
+import Resume from './Mark_Branton_CV_2021.pdf';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import Projects from './projects.json'
@@ -73,7 +74,7 @@ function App(props) {
                 <a style={{color: "white"}} href="mailto: markbranton99@gmail.com"><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></a>
               </Col>
               <Col>
-                <FontAwesomeIcon icon={faFileDownload}></FontAwesomeIcon>
+                <a style={{color: "white"}} href={Resume} download="Mark_Branton_CV.pdf"><FontAwesomeIcon icon={faFileDownload}></FontAwesomeIcon></a>
               </Col>
             </Row>
           </Container>
@@ -136,8 +137,11 @@ function App(props) {
               <br></br>
               <p>{Project.Description}</p>
               <br></br>
+              {Project.hasOwnProperty('FrontEnd')? <div><a class="btn btn-primary" href={Project.FrontEnd}>Click to see front end code</a><br/></div>: <div></div>}
+              {Project.hasOwnProperty('BackEnd')? <div><a class="btn btn-primary" href={Project.BackEnd}>Click to see back end code</a><br/></div>: <div></div>}
             </div>);
           })}
+          <br/>
         </div>
       </div>
     </div>

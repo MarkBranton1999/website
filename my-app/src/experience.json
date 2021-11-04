@@ -1,14 +1,28 @@
 [{
-    "Title": "Full Stack JavaScript Developer",
-    "Company": "Intrigue Media",
-    "Description": ["Developed many new features and fixed bugs in proprietary software. Worked extensively with form fields, back-end schema, save and update hooks, and developed new APIs.","Held a de-facto IT/Software support role with respect to the company’s non-technical teams. Worked extensively with users to identify issues and come up with new features to improve the software."],
-    "Tech": "Javascript, JQuery, PHP, React, ExpressJS, Mongoose",
-    "Date": "Jan 2020 - April 2020"
+    "Title": "Full Stack Software Developer",
+    "Company": "University of Waterloo",
+    "Description": ["Built the front end for an internal TA application platform in AngularJS.","Built the back end for an internal TA application platform in C# and created stored procedures for a SQL database."],
+    "Tech": "AngularJS, C#, SQL",
+    "Date": "Sept 2021 - Dec 2021"
 },
 {
     "Title": "Backend Developer",
     "Company": "PepperData",
-    "Description": ["Added extensive machine learning and GPU metrics gathering capabilities to a Kubernetes system", "Lead a research project involving machine learning and hardware monitoring in Kubernetes from start to finish. Took initiative regarding what to research.", "Wrote extensive documentation (over 50 pages) and gave several design presentations."],
+    "Description": ["Added extensive machine learning and GPU metrics gathering capabilities to a Kubernetes system.", "Lead a research project involving machine learning and hardware monitoring in Kubernetes from start to finish. Took initiative regarding what to research.", "Wrote extensive documentation (over 50 pages) and gave several design presentations."],
     "Tech": "Kubernetes, PyTorch, TensorFlow, Bash, YAML",
     "Date": "Sept 2020 - Dec 2020"
+},
+{
+    "Title": "Full Stack JavaScript Developer",
+    "Company": "Intrigue Media",
+    "Description": ["Developed many new features and fixed bugs in proprietary software. Worked extensively with form fields, back-end schema, save and update hooks, and developed new APIs.","Utilized Scrum Agile Methodologies such as Daily Scrum, Sprint Planning, Sprint Retrospectives, etc.","Held a de-facto IT/Software support role with respect to the company’s non-technical teams. Worked extensively with users to identify issues and come up with new features to improve the software."],
+    "Tech": "Javascript, JQuery, PHP, React, nodeJS, ExpressJS, MongoDB",
+    "Date": "Jan 2020 - April 2020"
+},
+{
+    "Title": "QA Analyst",
+    "Company": "Validus Re",
+    "Description": ["Fully automated front end testing of a large application using Python and Selenium.","Automated testing for over 300 REST APIs using TypeScript with Mocha and Chai frameworks.","Regularly performed extensive regression testing involving several hundred tests and helped manage the release of new software updates."],
+    "Tech": "Python, Selenium, TypeScript, Mocha, Chai",
+    "Date": "May 2019 - Aug 2019"
 }]

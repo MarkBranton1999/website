@@ -1,29 +1,6 @@
 [{
-    "Title": "Placeholder",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu. Tincidunt dui ut ornare lectus. Vestibulum lorem sed risus ultricies tristique. Adipiscing commodo elit at imperdiet dui accumsan. At consectetur lorem donec massa sapien faucibus et molestie. Turpis egestas maecenas pharetra convallis posuere morbi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tempor orci eu lobortis elementum nibh tellus. Auctor elit sed vulputate mi sit amet mauris."
-},
-{
-    "Title": "Placeholder",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu. Tincidunt dui ut ornare lectus. Vestibulum lorem sed risus ultricies tristique. Adipiscing commodo elit at imperdiet dui accumsan. At consectetur lorem donec massa sapien faucibus et molestie. Turpis egestas maecenas pharetra convallis posuere morbi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tempor orci eu lobortis elementum nibh tellus. Auctor elit sed vulputate mi sit amet mauris."
-},
-{
-    "Title": "Placeholder",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu. Tincidunt dui ut ornare lectus. Vestibulum lorem sed risus ultricies tristique. Adipiscing commodo elit at imperdiet dui accumsan. At consectetur lorem donec massa sapien faucibus et molestie. Turpis egestas maecenas pharetra convallis posuere morbi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tempor orci eu lobortis elementum nibh tellus. Auctor elit sed vulputate mi sit amet mauris."
-},
-{
-    "Title": "Placeholder",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu. Tincidunt dui ut ornare lectus. Vestibulum lorem sed risus ultricies tristique. Adipiscing commodo elit at imperdiet dui accumsan. At consectetur lorem donec massa sapien faucibus et molestie. Turpis egestas maecenas pharetra convallis posuere morbi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tempor orci eu lobortis elementum nibh tellus. Auctor elit sed vulputate mi sit amet mauris."
-},
-{
-    "Title": "Placeholder",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu. Tincidunt dui ut ornare lectus. Vestibulum lorem sed risus ultricies tristique. Adipiscing commodo elit at imperdiet dui accumsan. At consectetur lorem donec massa sapien faucibus et molestie. Turpis egestas maecenas pharetra convallis posuere morbi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tempor orci eu lobortis elementum nibh tellus. Auctor elit sed vulputate mi sit amet mauris."
-},
-{
-    "Title": "Placeholder",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu. Tincidunt dui ut ornare lectus. Vestibulum lorem sed risus ultricies tristique. Adipiscing commodo elit at imperdiet dui accumsan. At consectetur lorem donec massa sapien faucibus et molestie. Turpis egestas maecenas pharetra convallis posuere morbi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tempor orci eu lobortis elementum nibh tellus. Auctor elit sed vulputate mi sit amet mauris."
-},
-{
-    "Title": "Placeholder",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu. Tincidunt dui ut ornare lectus. Vestibulum lorem sed risus ultricies tristique. Adipiscing commodo elit at imperdiet dui accumsan. At consectetur lorem donec massa sapien faucibus et molestie. Turpis egestas maecenas pharetra convallis posuere morbi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tempor orci eu lobortis elementum nibh tellus. Auctor elit sed vulputate mi sit amet mauris."
-}
-]
+    "Title": "SimpleShop App",
+    "Description": "Simple shop application with user login and a shopping cart service. Front end built in React, back end built in ExpressJS, SQL Database.",
+    "FrontEnd": "https://github.com/MarkBranton1999/SimpleShopFrontEnd",
+    "BackEnd": "https://github.com/MarkBranton1999/SimpleShopBackEnd"
+}]
