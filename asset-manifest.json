@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.cd523719.chunk.css",
+    "main.js": "/website/static/js/main.dcd5a380.chunk.js",
+    "main.js.map": "/website/static/js/main.dcd5a380.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.37871b32.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.37871b32.js.map",
+    "static/css/2.038361d8.chunk.css": "/website/static/css/2.038361d8.chunk.css",
+    "static/js/2.b29cee33.chunk.js": "/website/static/js/2.b29cee33.chunk.js",
+    "static/js/2.b29cee33.chunk.js.map": "/website/static/js/2.b29cee33.chunk.js.map",
+    "static/js/3.7f00a3cf.chunk.js": "/website/static/js/3.7f00a3cf.chunk.js",
+    "static/js/3.7f00a3cf.chunk.js.map": "/website/static/js/3.7f00a3cf.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/2.038361d8.chunk.css.map": "/website/static/css/2.038361d8.chunk.css.map",
+    "static/css/main.cd523719.chunk.css.map": "/website/static/css/main.cd523719.chunk.css.map",
+    "static/js/2.b29cee33.chunk.js.LICENSE.txt": "/website/static/js/2.b29cee33.chunk.js.LICENSE.txt",
+    "static/media/Mark.4e57e4dd.png": "/website/static/media/Mark.4e57e4dd.png",
+    "static/media/Mark_Branton_CV_2021.2fb62bf3.pdf": "/website/static/media/Mark_Branton_CV_2021.2fb62bf3.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37871b32.js",
+    "static/css/2.038361d8.chunk.css",
+    "static/js/2.b29cee33.chunk.js",
+    "static/css/main.cd523719.chunk.css",
+    "static/js/main.dcd5a380.chunk.js"
+  ]
+}
