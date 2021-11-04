@@ -4,8 +4,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import Projects from './projects.json'
 import Experience from './experience.json'
-import { Grid, Form, FormControl, Navbar, Glyphicon,
-  Nav, NavItem, Well, Row, Col, Button, Container } from 'react-bootstrap';
+import { Navbar, Nav, Row, Col, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons'
