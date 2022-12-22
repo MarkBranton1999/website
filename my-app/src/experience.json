@@ -1,4 +1,12 @@
-[{
+[
+{
+    "Title": "Software Developer",
+    "Company": "Brock Solutions",
+    "Description": ["Updated the UI for various airline kiosks using Java Swing framework.","Migrated various airline services to an azure cloud environment.", "Extensively documented a cloud migration plan."],
+    "Tech": "Java, C#, SQL",
+    "Date": "May 2022 - Present"
+},
+{
     "Title": "Full Stack Software Developer",
     "Company": "University of Waterloo",
     "Description": ["Built the front end for an internal TA application platform in AngularJS.","Built the back end for an internal TA application platform in C# and created stored procedures for a SQL database."],

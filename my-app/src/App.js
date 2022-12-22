@@ -1,10 +1,10 @@
-import Mark from './Mark.png';
+import Mark from './Mark.jpg';
 import Resume from './Mark_Branton_CV_2021.pdf';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import Projects from './projects.json'
 import Experience from './experience.json'
-import { Navbar, Nav, Row, Col, Container } from 'react-bootstrap';
+import { Navbar, Nav, Row, Col,Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons'
@@ -83,11 +83,11 @@ function App(props) {
           <h1>About</h1>
           <br></br>
           <div>
-            I am a 4th year computer engineering student at the University of Waterloo who is always looking for new job opportunities.
+          I am a full time software developer who is passionate about all things programming.
           </div>
           <div>
-            I am mainly looking for web development jobs.
-            Please do not hesitate to reach out to me with job opportunities.
+          I have worked extensively in full stack development and have had a lot of interesting opportunities.
+          I am always open to new opportunities, so please don't hesitate to reach out.
           </div>
         </div>
         <br></br>
