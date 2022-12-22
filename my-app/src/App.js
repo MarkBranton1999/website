@@ -1,5 +1,5 @@
 import Mark from './Mark.jpg';
-import Resume from './Mark_Branton_CV_2021.pdf';
+import Resume from './Mark_Branton_CV.pdf';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import Projects from './projects.json'
