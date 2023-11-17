@@ -1,6 +1,0 @@
-[{
-    "Title": "SimpleShop App",
-    "Description": "Simple shop application with user login and a shopping cart service. Front end built in React, back end built in ExpressJS, SQL Database.",
-    "FrontEnd": "https://github.com/MarkBranton1999/SimpleShopFrontEnd",
-    "BackEnd": "https://github.com/MarkBranton1999/SimpleShopBackEnd"
-}]
